@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8A5B6E4B1E36FF3200AAA9A6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A5B6E4A1E36FF3200AAA9A6 /* main.m */; };
+		8A5B6E4E1E36FF3200AAA9A6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A5B6E4D1E36FF3200AAA9A6 /* AppDelegate.m */; };
+		8A5B6E511E36FF3200AAA9A6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A5B6E501E36FF3200AAA9A6 /* ViewController.m */; };
+		8A5B6E541E36FF3200AAA9A6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A5B6E521E36FF3200AAA9A6 /* Main.storyboard */; };
+		8A5B6E561E36FF3200AAA9A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A5B6E551E36FF3200AAA9A6 /* Assets.xcassets */; };
+		8A5B6E591E36FF3200AAA9A6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A5B6E571E36FF3200AAA9A6 /* LaunchScreen.storyboard */; };
+		8A5B6E641E36FF3200AAA9A6 /* TaobaoWebViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A5B6E631E36FF3200AAA9A6 /* TaobaoWebViewTests.m */; };
+		8A5B6E6F1E36FF3200AAA9A6 /* TaobaoWebViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A5B6E6E1E36FF3200AAA9A6 /* TaobaoWebViewUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8A5B6E601E36FF3200AAA9A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8A5B6E3E1E36FF3100AAA9A6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8A5B6E451E36FF3100AAA9A6;
+			remoteInfo = TaobaoWebView;
+		};
+		8A5B6E6B1E36FF3200AAA9A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8A5B6E3E1E36FF3100AAA9A6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8A5B6E451E36FF3100AAA9A6;
+			remoteInfo = TaobaoWebView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8A5B6E461E36FF3200AAA9A6 /* TaobaoWebView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TaobaoWebView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A5B6E4A1E36FF3200AAA9A6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8A5B6E4C1E36FF3200AAA9A6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8A5B6E4D1E36FF3200AAA9A6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8A5B6E4F1E36FF3200AAA9A6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8A5B6E501E36FF3200AAA9A6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8A5B6E531E36FF3200AAA9A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8A5B6E551E36FF3200AAA9A6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8A5B6E581E36FF3200AAA9A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8A5B6E5A1E36FF3200AAA9A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8A5B6E5F1E36FF3200AAA9A6 /* TaobaoWebViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TaobaoWebViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A5B6E631E36FF3200AAA9A6 /* TaobaoWebViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TaobaoWebViewTests.m; sourceTree = "<group>"; };
+		8A5B6E651E36FF3200AAA9A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8A5B6E6A1E36FF3200AAA9A6 /* TaobaoWebViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TaobaoWebViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A5B6E6E1E36FF3200AAA9A6 /* TaobaoWebViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TaobaoWebViewUITests.m; sourceTree = "<group>"; };
+		8A5B6E701E36FF3200AAA9A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8A5B6E431E36FF3100AAA9A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A5B6E5C1E36FF3200AAA9A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A5B6E671E36FF3200AAA9A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8A5B6E3D1E36FF3100AAA9A6 = {
+			isa = PBXGroup;
+			children = (
+				8A5B6E481E36FF3200AAA9A6 /* TaobaoWebView */,
+				8A5B6E621E36FF3200AAA9A6 /* TaobaoWebViewTests */,
+				8A5B6E6D1E36FF3200AAA9A6 /* TaobaoWebViewUITests */,
+				8A5B6E471E36FF3200AAA9A6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8A5B6E471E36FF3200AAA9A6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8A5B6E461E36FF3200AAA9A6 /* TaobaoWebView.app */,
+				8A5B6E5F1E36FF3200AAA9A6 /* TaobaoWebViewTests.xctest */,
+				8A5B6E6A1E36FF3200AAA9A6 /* TaobaoWebViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8A5B6E481E36FF3200AAA9A6 /* TaobaoWebView */ = {
+			isa = PBXGroup;
+			children = (
+				8A5B6E4C1E36FF3200AAA9A6 /* AppDelegate.h */,
+				8A5B6E4D1E36FF3200AAA9A6 /* AppDelegate.m */,
+				8A5B6E4F1E36FF3200AAA9A6 /* ViewController.h */,
+				8A5B6E501E36FF3200AAA9A6 /* ViewController.m */,
+				8A5B6E521E36FF3200AAA9A6 /* Main.storyboard */,
+				8A5B6E551E36FF3200AAA9A6 /* Assets.xcassets */,
+				8A5B6E571E36FF3200AAA9A6 /* LaunchScreen.storyboard */,
+				8A5B6E5A1E36FF3200AAA9A6 /* Info.plist */,
+				8A5B6E491E36FF3200AAA9A6 /* Supporting Files */,
+			);
+			path = TaobaoWebView;
+			sourceTree = "<group>";
+		};
+		8A5B6E491E36FF3200AAA9A6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8A5B6E4A1E36FF3200AAA9A6 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8A5B6E621E36FF3200AAA9A6 /* TaobaoWebViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				8A5B6E631E36FF3200AAA9A6 /* TaobaoWebViewTests.m */,
+				8A5B6E651E36FF3200AAA9A6 /* Info.plist */,
+			);
+			path = TaobaoWebViewTests;
+			sourceTree = "<group>";
+		};
+		8A5B6E6D1E36FF3200AAA9A6 /* TaobaoWebViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8A5B6E6E1E36FF3200AAA9A6 /* TaobaoWebViewUITests.m */,
+				8A5B6E701E36FF3200AAA9A6 /* Info.plist */,
+			);
+			path = TaobaoWebViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8A5B6E451E36FF3100AAA9A6 /* TaobaoWebView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A5B6E731E36FF3200AAA9A6 /* Build configuration list for PBXNativeTarget "TaobaoWebView" */;
+			buildPhases = (
+				8A5B6E421E36FF3100AAA9A6 /* Sources */,
+				8A5B6E431E36FF3100AAA9A6 /* Frameworks */,
+				8A5B6E441E36FF3100AAA9A6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TaobaoWebView;
+			productName = TaobaoWebView;
+			productReference = 8A5B6E461E36FF3200AAA9A6 /* TaobaoWebView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8A5B6E5E1E36FF3200AAA9A6 /* TaobaoWebViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A5B6E761E36FF3200AAA9A6 /* Build configuration list for PBXNativeTarget "TaobaoWebViewTests" */;
+			buildPhases = (
+				8A5B6E5B1E36FF3200AAA9A6 /* Sources */,
+				8A5B6E5C1E36FF3200AAA9A6 /* Frameworks */,
+				8A5B6E5D1E36FF3200AAA9A6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8A5B6E611E36FF3200AAA9A6 /* PBXTargetDependency */,
+			);
+			name = TaobaoWebViewTests;
+			productName = TaobaoWebViewTests;
+			productReference = 8A5B6E5F1E36FF3200AAA9A6 /* TaobaoWebViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8A5B6E691E36FF3200AAA9A6 /* TaobaoWebViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A5B6E791E36FF3200AAA9A6 /* Build configuration list for PBXNativeTarget "TaobaoWebViewUITests" */;
+			buildPhases = (
+				8A5B6E661E36FF3200AAA9A6 /* Sources */,
+				8A5B6E671E36FF3200AAA9A6 /* Frameworks */,
+				8A5B6E681E36FF3200AAA9A6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8A5B6E6C1E36FF3200AAA9A6 /* PBXTargetDependency */,
+			);
+			name = TaobaoWebViewUITests;
+			productName = TaobaoWebViewUITests;
+			productReference = 8A5B6E6A1E36FF3200AAA9A6 /* TaobaoWebViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8A5B6E3E1E36FF3100AAA9A6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = zhengyawei;
+				TargetAttributes = {
+					8A5B6E451E36FF3100AAA9A6 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = PT88Q3CF88;
+						ProvisioningStyle = Automatic;
+					};
+					8A5B6E5E1E36FF3200AAA9A6 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = PT88Q3CF88;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8A5B6E451E36FF3100AAA9A6;
+					};
+					8A5B6E691E36FF3200AAA9A6 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = PT88Q3CF88;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8A5B6E451E36FF3100AAA9A6;
+					};
+				};
+			};
+			buildConfigurationList = 8A5B6E411E36FF3100AAA9A6 /* Build configuration list for PBXProject "TaobaoWebView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8A5B6E3D1E36FF3100AAA9A6;
+			productRefGroup = 8A5B6E471E36FF3200AAA9A6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8A5B6E451E36FF3100AAA9A6 /* TaobaoWebView */,
+				8A5B6E5E1E36FF3200AAA9A6 /* TaobaoWebViewTests */,
+				8A5B6E691E36FF3200AAA9A6 /* TaobaoWebViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8A5B6E441E36FF3100AAA9A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A5B6E591E36FF3200AAA9A6 /* LaunchScreen.storyboard in Resources */,
+				8A5B6E561E36FF3200AAA9A6 /* Assets.xcassets in Resources */,
+				8A5B6E541E36FF3200AAA9A6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A5B6E5D1E36FF3200AAA9A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A5B6E681E36FF3200AAA9A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8A5B6E421E36FF3100AAA9A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A5B6E511E36FF3200AAA9A6 /* ViewController.m in Sources */,
+				8A5B6E4E1E36FF3200AAA9A6 /* AppDelegate.m in Sources */,
+				8A5B6E4B1E36FF3200AAA9A6 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A5B6E5B1E36FF3200AAA9A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A5B6E641E36FF3200AAA9A6 /* TaobaoWebViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A5B6E661E36FF3200AAA9A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A5B6E6F1E36FF3200AAA9A6 /* TaobaoWebViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8A5B6E611E36FF3200AAA9A6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8A5B6E451E36FF3100AAA9A6 /* TaobaoWebView */;
+			targetProxy = 8A5B6E601E36FF3200AAA9A6 /* PBXContainerItemProxy */;
+		};
+		8A5B6E6C1E36FF3200AAA9A6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8A5B6E451E36FF3100AAA9A6 /* TaobaoWebView */;
+			targetProxy = 8A5B6E6B1E36FF3200AAA9A6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8A5B6E521E36FF3200AAA9A6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8A5B6E531E36FF3200AAA9A6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8A5B6E571E36FF3200AAA9A6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8A5B6E581E36FF3200AAA9A6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8A5B6E711E36FF3200AAA9A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8A5B6E721E36FF3200AAA9A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8A5B6E741E36FF3200AAA9A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = PT88Q3CF88;
+				INFOPLIST_FILE = TaobaoWebView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhengyawei.TaobaoWebView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8A5B6E751E36FF3200AAA9A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = PT88Q3CF88;
+				INFOPLIST_FILE = TaobaoWebView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhengyawei.TaobaoWebView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8A5B6E771E36FF3200AAA9A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = PT88Q3CF88;
+				INFOPLIST_FILE = TaobaoWebViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhengyawei.TaobaoWebViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TaobaoWebView.app/TaobaoWebView";
+			};
+			name = Debug;
+		};
+		8A5B6E781E36FF3200AAA9A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = PT88Q3CF88;
+				INFOPLIST_FILE = TaobaoWebViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhengyawei.TaobaoWebViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TaobaoWebView.app/TaobaoWebView";
+			};
+			name = Release;
+		};
+		8A5B6E7A1E36FF3200AAA9A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = PT88Q3CF88;
+				INFOPLIST_FILE = TaobaoWebViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhengyawei.TaobaoWebViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TaobaoWebView;
+			};
+			name = Debug;
+		};
+		8A5B6E7B1E36FF3200AAA9A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = PT88Q3CF88;
+				INFOPLIST_FILE = TaobaoWebViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhengyawei.TaobaoWebViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TaobaoWebView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8A5B6E411E36FF3100AAA9A6 /* Build configuration list for PBXProject "TaobaoWebView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A5B6E711E36FF3200AAA9A6 /* Debug */,
+				8A5B6E721E36FF3200AAA9A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8A5B6E731E36FF3200AAA9A6 /* Build configuration list for PBXNativeTarget "TaobaoWebView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A5B6E741E36FF3200AAA9A6 /* Debug */,
+				8A5B6E751E36FF3200AAA9A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8A5B6E761E36FF3200AAA9A6 /* Build configuration list for PBXNativeTarget "TaobaoWebViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A5B6E771E36FF3200AAA9A6 /* Debug */,
+				8A5B6E781E36FF3200AAA9A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8A5B6E791E36FF3200AAA9A6 /* Build configuration list for PBXNativeTarget "TaobaoWebViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A5B6E7A1E36FF3200AAA9A6 /* Debug */,
+				8A5B6E7B1E36FF3200AAA9A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8A5B6E3E1E36FF3100AAA9A6 /* Project object */;
+}
